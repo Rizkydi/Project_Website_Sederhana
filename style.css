@@ -1,0 +1,349 @@
+dsad@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins',sans-serif;
+}
+
+/* HEADER NYA IKI */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    line-height: 60px;
+    position: sticky;
+    top: 0;
+    background: #F7F7F7;
+    z-index: 1;
+    border-bottom:1px solid #364f6b ;
+}
+
+ul{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #1B2430;
+    transition: 1s ease all;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi-1 {
+    font-size: 40px;
+    font-weight: thin;
+    font-family: 'comic sans ms';
+    color: #1B2430;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 70px;
+    margin-bottom: 25px;
+    color: #1B2430;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tombl-biru-1 {
+    background: #1CD6CE;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tombl-biru-1:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+a.tombl-biru-2 {
+    background: #1CD6CE;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.tombl-biru-2:hover {
+    background: #fc5185;
+    text-decoration: none;
+    transition: 1s ease all;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://img.freepik.com/free-vector/flat-design-abstract-background_23-2149116123.jpg?w=1380&t=st=1661866132~exp=1661866732~hmac=a2fd51772a287bb90f55971d71e662f84ccde317bd1d6686034aa1aa58d21e7a");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.deskripsi-2 {
+    font-size: 50px;
+}
+
+.header-1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.tombl-biru-3 {
+    background: #1CD6CE;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+}
+
+.tombl-biru-3:hover {
+    background: #fc5185;
+    text-decoration: none;
+    transition: 1s ease all;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.deskripsi-3 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.deskripsi-4 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0;
+    display: flex;
+    float: left;
+}
+
+.kartu-partner img {
+    width: 200px;
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer col h4 {
+    font-size: 18px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 300;
+    color: #BBBBBB;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #FFFFFF;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #FFFFFF;
+}
+
+/* untuk responsive */
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+         text-align:  center;
+         margin: auto;
+         line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+
+    .tmbl-biru-1 {
+        width: 50%;
+    }
+}
